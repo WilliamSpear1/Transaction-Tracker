@@ -1,0 +1,83 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+out/
+
+# Vite cache
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Env files
+.env
+.env.*.local
+.env.local
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# JetBrains
+*.iml
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Testing
+jest-cache/
+jest-coverage/
+
+# Parcel cache
+.parcel-cache/
+
+# Storybook
+storybook-static/
+
+# Next.js (if any experiments)
+.next/
+
+# Misc
+.cache/
+*.tgz
+dist-*/
+
+# Mac files
+.AppleDouble
+.LSOverride
+
+# Windows image file caches
+ehthumbs.db
+Icon?
+
+# Tailwind cache (if using Just-in-Time or experimental caches)
+.tailwindcss/
+
+# lock files for Yarn PnP (if used)
+.pnp.cjs
+.pnp.js
+
+# Local env overrides
+.env.local
